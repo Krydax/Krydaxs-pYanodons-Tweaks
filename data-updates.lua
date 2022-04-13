@@ -1,3 +1,3 @@
---Changes to Lamp
+--Changes to Small Lamp
 
-data.raw["lamp"]["small-lamp"].glow_size = 12.0
+data.raw["lamp"]["small-lamp"].light.size = 70
