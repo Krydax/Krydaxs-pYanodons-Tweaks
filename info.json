@@ -1,12 +1,12 @@
 {
-	"name": "Krydax's Pyanodons Tweaks",
-	"version": "1.0.0",
+	"name": "Brighter-Lamps",
+	"version": "1.0.1",
 	"factorio_version": "1.1",
-	"title": "Krydax's Pyanodon's Tweaks",
+	"title": "Brighter Lamps",
 	"author": "Krydax",
 	"contact": "",
 	"homepage": "",
-	"description": "This mod aims to tweak some small parts of pYanodon's to make it more livable. Currently extends wire range of electric poles and reworks fluid tanks' cost/volume",
+	"description": "Basic Changes",
 	"dependencies": [
     	"base >= 1.0.0"
 	]
