@@ -8,6 +8,7 @@
 	"homepage": "",
 	"description": "This mod aims to tweak some small parts of pYanodon's to make it more livable. Currently extends wire range of electric poles and reworks fluid tanks' cost/volume",
 	"dependencies": [
-    	"base >= 1.0.0"
+    	"base >= 1.0.0",
+		"pypostprocessing >= 0.1.2"
 	]
 }
