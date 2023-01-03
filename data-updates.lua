@@ -14,8 +14,9 @@ data.raw["electric-pole"]["small-electric-pole"].maximum_wire_distance = 10.0
 data.raw["storage-tank"]["storage-tank"].fluid_box.base_area = 250
 data.raw["recipe"]["storage-tank"].ingredients = {
         {"pipe", 20},
-		{"lead-plate", 20},
-		{"steel-plate", 20}
+		{"lead-plate", 15},
+		{"steel-plate", 15},
+		{"duralumin", 5}
 }
 
 --Py Tank 1000 (tall boi)
