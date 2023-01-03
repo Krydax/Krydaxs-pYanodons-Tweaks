@@ -1,5 +1,5 @@
 --Changes to Power Poles
-if settings.global["extended-power-wires"].value == true then
+if settings.runtime["extended-power-wires"].value == true then
 data.raw["electric-pole"]["medium-electric-pole"].maximum_wire_distance = 15.0
 --data.raw["electric-pole"]["medium-electric-pole"].supply_area_distance = 3.5 (no change)
 data.raw["electric-pole"]["small-electric-pole"].maximum_wire_distance = 10.0
@@ -9,7 +9,7 @@ end
 
 
 --Changes to Storage Tanks
-if settings.global["fluid-tank-rebalance"].value == true then
+if settings.runtime["fluid-tank-rebalance"].value == true then
 --Vanilla Storage Tank
 data.raw["storage-tank"]["storage-tank"].fluid_box.base_area = 250
 data.raw["recipe"]["storage-tank"].ingredients = {
