@@ -4,7 +4,7 @@ data:extend({
         name = "extended-power-wires",
         setting_type = "startup",
         default_value = true
-    }
+    },
     {
         type = "bool-setting",
         name = "fluid-tank-rebalance",
