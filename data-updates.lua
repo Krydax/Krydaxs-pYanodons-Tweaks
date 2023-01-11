@@ -8,7 +8,7 @@ end
 
 --Nerfs And Buffs
 if settings.startup["nerfs-and-buffs"].value == true then
-	data.raw["electric-energy-interface]["multiblade-turbine-mk01"].energy_production = 1666.666666
+	data.raw["electric-energy-interface"]["multiblade-turbine-mk01"].energy_production = 1666.666666
 end
 
 
