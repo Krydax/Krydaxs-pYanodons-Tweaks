@@ -6,6 +6,10 @@ data.raw["electric-pole"]["small-electric-pole"].maximum_wire_distance = 10.0
 --data.raw["electric-pole"]["small-electric-pole"].supply_area_distance = 2.5 (no change)
 end
 
+--Nerfs And Buffs
+if settings.startup["nerfs-and-buffs"].value == true then
+	data.raw["electric-energy-interface]["multiblade-turbine-mk01"].energy_production = 1666.666666
+end
 
 
 --Changes to Storage Tanks
