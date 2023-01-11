@@ -4,7 +4,6 @@ Date: 2023.1.11
     - Added "Nerfs and Buffs" setting to the mod.
   Balancing:
     Nerfs:
-      
       Multiblade turbine (fish turbine) produces 100kW, down from 800kW. 800kW was equivalent to .56 raw coal in a burner, per second, with zero logistics requirements.
       Note: There is no migration, already placed turbines will remain at 800kW. Newly placed turbines should work properly.
 ---------------------------------------------------------------------------------------------------
