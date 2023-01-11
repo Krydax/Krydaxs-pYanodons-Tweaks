@@ -1,9 +1,10 @@
 Version: 1.1.1
 Date: 2023.1.11
   Features:
-    - Added "Nerfs and Buffs" setting to the mod,
+    - Added "Nerfs and Buffs" setting to the mod.
   Balancing:
-    - The vanilla fluid tank requires some duralumin (5), reduced cost of steel & lead by 5 each.
+    Nerfs:
+      Multiblade turbine (fish turbine) produces 100kW, down from 800kW. 800kW was equivalent to .56 raw coal in a burner, per second, with zero logistics requirements.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 2023.1.3
