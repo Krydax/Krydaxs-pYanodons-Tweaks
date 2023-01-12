@@ -11,6 +11,32 @@ if settings.startup["nerfs-and-buffs"].value == true then
 	data.raw["electric-energy-interface"]["multiblade-turbine-mk01"].energy_production = "100kW"
 end
 
+--Deadlocks loaders
+if settings.startup["more-expensive-loaders"].value == true and mods[DeadlocksStackingForPyanadon] then
+
+	data.raw["recipe"]["transport-belt-loader"].ingredients = {
+		{"inserter",4},
+		{"transport-belt",1},
+		{"steel-plate",10},
+		{"battery-mk00",2},
+		{"electronic-circuit",2}
+	}
+	data.raw["recipe"]["fast-transport-belt-loader"].ingredients = {
+		{"fast-inserter",4},
+		{"fast-transport-belt",1},
+		{"battery-mk01",4},
+		{"advanced-circuit",4},
+		{"stainless-steel",10}
+	}
+	data.raw["recipe"]["express-transport-belt-loader"].ingredients = {
+		{"stack-inserter",4},
+		{"express-transport-belt",1},
+		{"biobattery",8},
+		{"super-steel",10},
+		{"processing-unit",8}
+	}
+end
+
 
 --Changes to Storage Tanks
 if settings.startup["fluid-tank-rebalance"].value == true then
