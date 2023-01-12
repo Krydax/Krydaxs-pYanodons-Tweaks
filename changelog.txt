@@ -1,3 +1,9 @@
+
+Version: 1.1.2
+Date: 2023.1.11
+  Balancing:
+    Nerfs: Deadlocks loaders now are more expensive, requiring the proper tier of inserters, batteries, steel, circuits, and belt.
+---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 2023.1.11
   Features:

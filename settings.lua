@@ -16,5 +16,11 @@ data:extend({
         name = "fluid-tank-rebalance",
         setting_type = "startup",
         default_value = true
+    },
+    {
+        type = "bool-setting",
+        name = "more-expensive-loaders",
+        setting_type = "startup",
+        default_value = true
     }
 })
