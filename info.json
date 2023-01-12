@@ -10,6 +10,6 @@
 	"dependencies": [
     	"base >= 1.0.0",
 		"pypostprocessing >= 0.1.2",
-		"?DeadlocksStackingForPyanadon >= 0.5.7"
+		"? DeadlocksStackingForPyanadon >= 0.5.7"
 	]
 }
