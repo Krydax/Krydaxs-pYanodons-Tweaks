@@ -12,8 +12,7 @@ if settings.startup["nerfs-and-buffs"].value == true then
 end
 
 --Deadlocks loaders
-if settings.startup["more-expensive-loaders"].value == true and mods[DeadlocksStackingForPyanadon] then
-
+if settings.startup["more-expensive-loaders"].value and mods["DeadlocksStackingForPyanadon"] then
 	data.raw["recipe"]["transport-belt-loader"].ingredients = {
 		{"inserter",4},
 		{"transport-belt",1},
