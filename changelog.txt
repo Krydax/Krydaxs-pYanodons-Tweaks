@@ -2,15 +2,17 @@
 Version: 1.1.2
 Date: 2023.1.12
   Balancing:
-    - Nerfs: Deadlocks loaders now are more expensive, requiring the proper tier of inserters, batteries, steel, circuits, and belt.
+    - Nerfs: 
+      - Deadlocks loaders now are more expensive, requiring the proper tier of inserters, batteries, steel, circuits, and belt.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 2023.1.11
   Features:
     - Added "Nerfs and Buffs" setting to the mod.
   Balancing:
-    - Nerfs: Multiblade turbine (fish turbine) produces 100kW, down from 800kW. 800kW was equivalent to .56 raw coal in a burner, per second, with zero logistics requirements.
-    - Note: There is no migration, already placed turbines will remain at 800kW. Newly placed turbines should work properly.
+    - Nerfs:
+      - Multiblade turbine (fish turbine) produces 100kW, down from 800kW. 800kW was equivalent to .56 raw coal in a burner, per second, with zero logistics requirements.
+      - Note: There is no migration, already placed turbines will remain at 800kW. Newly placed turbines should work properly.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 2023.1.3
