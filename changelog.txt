@@ -1,6 +1,5 @@
-
 Version: 1.1.2
-Date: 2023.1.11
+Date: 2023.1.12
   Balancing:
     Nerfs: Deadlocks loaders now are more expensive, requiring the proper tier of inserters, batteries, steel, circuits, and belt.
 ---------------------------------------------------------------------------------------------------
@@ -20,12 +19,10 @@ Date: 2023.1.3
   Balancing:
     - The vanilla fluid tank requires some duralumin (5), reduced cost of steel & lead by 5 each.
 ---------------------------------------------------------------------------------------------------
-
 Version: 1.0.1
 Date: 2022.11.10
   Features:
     - Fixed dependency crash?
-
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2022.11.10
