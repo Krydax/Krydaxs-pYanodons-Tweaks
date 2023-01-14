@@ -19,6 +19,7 @@ if settings.startup["more-expensive-loaders"].value and mods["DeadlocksStackingF
 		{"steel-plate",10},
 		{"battery-mk00",2},
 		{"electronic-circuit",2}
+		
 	}
 	data.raw["recipe"]["fast-transport-belt-loader"].ingredients = {
 		{"fast-inserter",4},
