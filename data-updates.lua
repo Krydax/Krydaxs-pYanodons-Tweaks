@@ -7,9 +7,9 @@ data.raw["electric-pole"]["small-electric-pole"].maximum_wire_distance = 10.0
 end
 
 --Nerfs And Buffs
-if settings.startup["nerfs-and-buffs"].value == true then
-	data.raw["electric-energy-interface"]["multiblade-turbine-mk01"].energy_production = "100kW"
-end
+--if settings.startup["nerfs-and-buffs"].value == true then
+--	data.raw["electric-energy-interface"]["multiblade-turbine-mk01"].energy_production = "100kW"
+--end
 
 --Deadlocks loaders
 if settings.startup["more-expensive-loaders"].value and mods["DeadlocksStackingForPyanadon"] then
